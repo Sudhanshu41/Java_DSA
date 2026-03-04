@@ -25,7 +25,23 @@ public class LastIndex {
             }
 
         }
-        System.out.println(li);
+        System.out.println("Last Index"+li);
+        l=0;
+        h=arr.length-1;
+        int fi =0;
+        while (l <= h) {
+            int m = (l + h) / 2;
+            if (k < arr[m]) {
+                h = m - 1;
+            } else if (k > arr[m]) {
+                l = m + 1;
+            } else {
+                fi=m;
+                h=m-1;
+            }
+
+        }
+        System.out.println("First Index: "+fi);
 
     }
 }
