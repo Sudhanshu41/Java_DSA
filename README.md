@@ -30,7 +30,7 @@ The goal is to build strong fundamentals and progressively move toward advanced 
 
 * **Language:** Java
 * **IDE:** IntelliJ 
-* **Practice Platforms:** LeetCode, GeeksforGeeks
+* **Practice Platforms:** LeetCode, GeeksforGeeks,PepCoding
 
 ## 🤝 Contributions
 
